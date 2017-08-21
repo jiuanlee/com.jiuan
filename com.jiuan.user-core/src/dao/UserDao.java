@@ -1,4 +1,4 @@
-import src.user.User;
+import user.User;
 
 public interface UserDao{
 
