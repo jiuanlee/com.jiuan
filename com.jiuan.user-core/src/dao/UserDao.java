@@ -1,3 +1,5 @@
+package dao;
+
 import user.User;
 
 public interface UserDao{
