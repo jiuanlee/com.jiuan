@@ -3,6 +3,7 @@ package user;
 public class User {
   private String id;
   private String name;
+  private String adress;
 
   public String getId() {
     return id;
@@ -20,8 +21,17 @@ public class User {
     this.name = name;
   }
 
+  public String getAdress() {
+    return adress;
+  }
+
+  public void setAdress(String adress) {
+    this.adress = adress;
+  }
+
   @Override
   public String toString() {
     return id + ":" + name;
   }
+
 }
