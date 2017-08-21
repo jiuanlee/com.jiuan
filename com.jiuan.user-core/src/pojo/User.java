@@ -1,4 +1,4 @@
-package user;
+package pojo;
 
 public class User {
   private String id;
